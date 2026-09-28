@@ -15,6 +15,12 @@ android {
         versionName = "1.0"
     }
 
+    // ✅ Синхронизирует Java-компиляцию с Kotlin (JVM 17)
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+
     buildFeatures {
         compose = true
     }
@@ -36,6 +42,11 @@ android {
             )
         }
     }
+}
+
+// ✅ То же самое через Toolchain — единый источник истины для JVM
+kotlin {
+    jvmToolchain(17)
 }
 
 dependencies {
