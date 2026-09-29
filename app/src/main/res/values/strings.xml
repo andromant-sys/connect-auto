@@ -1,3 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">VPN Automator</string>
+    <string name="app_name">SSID VPN</string>
+
+    <string name="info_ip_title">Внешний IP-адрес</string>
+    <string name="ip_loading">Определение…</string>
+    <string name="ip_none">Нет данных</string>
+    <string name="st_on">Подключено</string>
+    <string name="st_off">Отключено</string>
+    <string name="st_wait">Ожидание</string>
+
+    <string name="mode_title">Управление VPN</string>
+    <string name="mode_auto">Авто</string>
+    <string name="mode_on">Вкл</string>
+    <string name="mode_off">Выкл</string>
+    <string name="mode_hint">Авто — по правилам сетей. «Вкл» и «Выкл» действуют принудительно, независимо от сети.</string>
+
+    <string name="profile_title">Профиль OpenVPN</string>
+    <string name="no_profile">Профиль не загружен</string>
+    <string name="pick_ovpn">Выбрать файл .ovpn</string>
+    <string name="engine_ok">Управляет приложением «OpenVPN for Android»</string>
+    <string name="engine_missing">Приложение «OpenVPN for Android» не установлено</string>
+    <string name="mobile_title">Мобильная сеть</string>
+    <string name="vpn_on">VPN вкл</string>
+    <string name="vpn_off">VPN выкл</string>
+    <string name="wifi_title">Сети Wi-Fi</string>
+    <string name="wifi_hint">Сети, которых нет в списке, — VPN включается. Без сети VPN отключается.</string>
+    <string name="empty_rules">Список пуст</string>
+    <string name="add_network">Добавить сеть Wi-Fi</string>
+    <string name="ssid_hint">Имя сети (SSID)</string>
+    <string name="add">Добавить</string>
+    <string name="delete">Удалить</string>
+    <string name="add_desc">Добавить сеть</string>
+    <string name="perm_title">Нужны разрешения</string>
+    <string name="perm_loc">Разрешите доступ к местоположению: без него Android скрывает имя сети Wi-Fi.</string>
+    <string name="perm_bg">Для работы в фоне выберите для местоположения «Всегда разрешать».</string>
+    <string name="perm_loc_on">Включите геолокацию на телефоне: без неё имя сети Wi-Fi недоступно.</string>
+    <string name="perm_fix">Настроить</string>
+    <string name="bad_file">Файл не похож на конфигурацию .ovpn</string>
+    <string name="warn_inline">В файле нет встроенного &lt;ca&gt;. Сертификаты и ключи должны быть внутри .ovpn</string>
+    <string name="need_auth">Разрешение в OpenVPN for Android не выдано</string>
+    <string name="engine_fail">Не удалось связаться с OpenVPN for Android</string>
 </resources>
